@@ -1,0 +1,11 @@
+.intro__lists-number {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* letter-spacing: 0em; */
+
+  margin: 0;
+  padding: 0;
+}

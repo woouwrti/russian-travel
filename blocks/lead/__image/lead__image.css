@@ -1,0 +1,24 @@
+.lead__image {
+  align-self: center;
+  max-width: 984px;
+  width: 100%;
+  margin: 64px 148px 0;
+}
+
+@media screen and (1024px <= width < 1280px) {
+  .lead__image {
+    margin: 56px 48px 0;
+  }
+}
+
+@media screen and (768px <= width < 1024px) {
+  .lead__image {
+    margin: 56px 0 0;
+  }
+}
+
+@media screen and (width < 768px) {
+  .lead__image {
+    margin: 40px 0 0;
+  }
+}

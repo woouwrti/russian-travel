@@ -1,0 +1,9 @@
+.place__image {
+  width: 100%;
+  max-width: 460px;
+  background-size: cover;
+  aspect-ratio: 1 / 1;
+
+  margin: 0;
+  padding: 0;
+}
