@@ -1,7 +1,7 @@
 .places {
   display: grid;
   grid-column: auto;
-  grid-gap: 80px;
+  gap: 80px;
 
   margin: 92px 148px 0;
   padding: 0;
@@ -15,14 +15,14 @@
 
 @media screen and (768px <= width < 1024px) {
   .places {
-    grid-gap: 72px;
+    gap: 72px;
     margin: 88px 24px 0;
   }
 }
 
 @media (width < 768px) {
   .places {
-    grid-gap: 50px;
+    gap: 50px;
     margin: 64px 0 0;
   }
 }

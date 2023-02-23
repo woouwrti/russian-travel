@@ -3,18 +3,18 @@
   flex-direction: row;
   justify-items: end;
   justify-content: space-between;
-  max-width: 1280px;
+  max-width: 1184px;
+  
   margin: 0 auto;
   padding: 92px 48px 24px;
 }
 
 @media screen and (768px <= width < 1024px) {
   .footer {
-    padding: (
-      calc(4 * (100% - 768px) / (1024 - 768) + 88px) 
-      calc(24 * (100% - 768px) / (1024 - 768) + 24px) 
-      24px 
-      );
+    padding: 
+      calc(4 * (100vw - 768px) / (1024 - 768) + 88px) 
+      calc(24 * (100vw - 768px) / (1024 - 768) + 24px) 
+      24px;
   }
 }
 

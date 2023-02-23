@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: repeat(2, auto);
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   justify-content: center;
 
   margin: 0;
@@ -12,14 +12,14 @@
 @media screen and (1024px <= width < 1280px) {
   .place {
     grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-    grid-gap: 48px calc((40 - 32) * (100vw - 1024px) / (1280 - 1024) + 32px);
+    gap: 48px calc((40 - 32) * (100vw - 1024px) / (1280 - 1024) + 32px);
   }
 }
 
 @media screen and (768px <= width < 1024px) {
   .place {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    grid-gap: 48px calc((32 - 26) * (100vw - 768px) / (1024 - 768) + 26px);
+    gap: 48px calc((32 - 26) * (100vw - 768px) / (1024 - 768) + 26px);
   }
 }
 
@@ -27,6 +27,6 @@
   .place {
     grid-template-columns: minmax(auto, 460px);
     grid-template-rows: repeat(4, auto);
-    grid-gap: 32px 32px;
+    gap: 32px 32px;
   }
 }

@@ -1,11 +1,11 @@
 .photo-grid__item {
   width: 100%;
 
-  background-position: center;
-  background-size: cover;
+  /* background-position: center;
+  background-size: cover; */
 }
 
-@media screen and (1280px <= width) {
+/* @media screen and (1280px <= width) {
   .photo-grid__item {
     width: 284px;
     height: 213px;
@@ -28,7 +28,6 @@
 
 @media (width < 768px) {
   .photo-grid__item {
-    width: 100%;
     aspect-ratio: 288 / 216;
   }
-}
+} */

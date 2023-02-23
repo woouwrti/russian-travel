@@ -2,17 +2,22 @@
   display: flex;
   justify-content: center;
   padding: 0;
-  margin: 92px 48px 0;
+  max-width: 1184px;
+
+  margin: 92px auto 0;
+  padding: 0 48px;
 }
 
 @media screen and (768px <= width < 1280px) {
   .cover {
-    margin: 92px 0 0;
+    margin: 92px auto 0;
+    padding: 0;
   }
 }
 
 @media screen and (width < 768px) {
   .cover {
-    margin: 66px 0 0;
+    margin: 66px auto 0;
+    padding: 0;
   }
 }
